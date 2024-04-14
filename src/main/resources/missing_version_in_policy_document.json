@@ -1,0 +1,13 @@
+{
+  "PolicyName": "root",
+  "PolicyDocument": {
+    "Statement": [
+      {
+        "Sid": "FirstStatement",
+        "Effect": "Allow",
+        "Action": "s3:ListAllMyBuckets",
+        "Resource": "*"
+      }
+    ]
+  }
+}
